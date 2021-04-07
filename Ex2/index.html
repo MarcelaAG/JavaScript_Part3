@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Frijole&family=Nothing+You+Could+Do&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Frijole&family=Grandstander:ital,wght@1,200&family=Nothing+You+Could+Do&display=swap" rel="stylesheet"> 
+    <title>Exercice 2 Part 3 JavaScript</title>
+<style>
+    .mama{
+        display: flex;
+        justify-content: space-between;
+        height: 500px;
+    }
+.container_img{
+    display: flex;
+    width: 30%;
+}
+img{
+    width: 100%;
+}
+h1{
+  font-family: 'Frijole', cursive;
+  font-size: 3rem;
+  color: rgb(214, 41, 41);
+  
+}
+button{
+    height: 75px;
+    width: 105px;
+    background-color: chartreuse;
+    font-size: 1.5rem;
+    font-family: 'Frijole', cursive;
+}
+p{
+  font-family:'Grandstander', cursive;
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: right; 
+  box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    display: flex;
+    background-color: chartreuse;
+    box-sizing: border-box;
+   
+}
+</style>
+</head>
+<body>
+    <h1>Exercice 2 Hide/Show Text</h1>
+    <div class="mama">
+    <div class="container_img">
+        <img src="images/multicolor.jpg" alt="multicolor wall">
+    </div>
+    <div class="container">
+          <p id="poem"> Shall I compare thee to a summer’s day?  Thou art more lovely and more temperate.
+                           Rough winds do shake the darling buds of May, And summer’s lease hath all too short a date.
+                           Sometime too hot the eye of heaven shines, And often is his gold complexion dimmed;
+                           And every fair from fair sometime declines, By chance, or nature’s changing course, untrimmed;
+                           But thy eternal summer shall not fade, Nor lose possession of that fair thou ow’st,
+                           Nor shall death brag thou wand’rest in his shade, When in eternal lines to Time thou grow’st.
+                           So long as men can breathe, or eyes can see, So long lives this, and this gives life to thee.
+             </p>            
+            </div>
+            </div>
+                       <button type="button" onclick="show()" id="show">Show</button>
+                       <button type="button" onclick="hide()" id="hide">Hide</button>
+               <script src="main.js"></script>
+</body>
+</html>
